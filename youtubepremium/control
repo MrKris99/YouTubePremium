@@ -1,0 +1,9 @@
+Package: com.krisanov.youtubepremium
+Name: YouTubePremium
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Tweak for YouTubePremium-like behaviour 
+Maintainer: Krisanov Anton
+Author: Krisanov Anton
+Section: Tweaks
