@@ -8,3 +8,5 @@ YouTubePremium_FILES = Tweak.x
 YouTubePremium_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += youtubepremiumprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
