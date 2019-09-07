@@ -5,11 +5,6 @@
 -(bool) isCurrentlyBackgroundable
 {   
     const BOOL isEnabled = [GET_PREFERENCE_FOR_KEY(@"Enabled") boolValue];    
-    if (isEnabled)
-    {
-        return TRUE;
-    }
-    
-    return %orig;
+    return isEnabled ? TRUE : %orig;
 }
 %end
